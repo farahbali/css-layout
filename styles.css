@@ -172,6 +172,20 @@ nav ul ul li {
 }
 
 
+.style-select{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 10%;
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
+
 .flex-container2{
     display: flex;
     background-color: hsl(210, 100%, 80%);
@@ -232,9 +246,12 @@ nav ul ul li {
     font-size:15px;
  }
 
+
  .text2{
      text-align: center;
  }
+
+
  .text2 h1{
     color:#00b39b;
     letter-spacing:4px;
@@ -242,6 +259,8 @@ nav ul ul li {
     font-size:1.125em;
     font-size: 25px;
  }
+
+
  .text2 p{
      display: block;
      color: gray;
@@ -250,23 +269,48 @@ nav ul ul li {
      font-size: 15px;
  }
 
+
  .flex-container3{
      display:flex;
-     margin-top: 4%;
      flex-wrap: wrap;
- }
- .flex-container3 div {
-     display:flex;
-     justify-content:center;
+     margin: 10%;
+     justify-content:space-around;
  }
 
- /* .head {
+
+  .button1{
+      background-color: #3d83df;
+      width: 100px;
+      margin-top: 0%;
+      margin-left: 20%;
+      color: white;
+      font-size: 12px;
+      height: 30px;
+      border-radius: 7px
+  }
+ 
+
+   .border{
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    border-radius: 25px;
+    background-color:white;
+    color: gray;
+    font-size: 15px;
+    box-shadow: 2px 2px #888888
+   }
+
+
+ .head {
      color: gray;
      text-align: center;
- } */
+     letter-spacing: 2px;
+     margin-top: 8%;
+ }
 
+ 
  .button{
-    background-color:rgb(0, 26, 255);
+    background-color:#3d83df;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -274,13 +318,18 @@ nav ul ul li {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin:4% 36%;
+    width: 400px;
+
     cursor: pointer;
  }
  
+
  .footer{
      text-align: center;
-     
+     font-size: x-small;
+     color: gray;
+     margin-top: 4%;
  }
 
 
